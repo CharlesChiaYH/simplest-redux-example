@@ -37,6 +37,7 @@ function counter(state = { count: 0 }, action) {
 }
 
 // Store
+// Arguement (counter) is the function defined in Reducer i.e. 'function counter...'
 const store = createStore(counter)
 
 // Map Redux state to component props
